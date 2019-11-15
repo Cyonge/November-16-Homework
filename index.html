@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src=logic.js></script>
+
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-header navbar-brand mb-0 h1">WEATHER REPORT</span>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <h1>Search</h1>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="form-control" placeholder="City Name"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button">Search</button>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">This is a City</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>City Weather</h1>
+                <div id="cityContainer">
+                    Atlanta Weather
+                    <h1>Humidity</h1>
+                    <h1>Date</h1>
+                    <h1>Temperature</h1>
+                    <h1>Time</h1>
+                    <h1>Rain</h1>
+                </div>
+                <div id="fiveDayForecast">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Atlanta Weather</h5>
+                                <p class="card-text">11/12/2019</p>
+                                <p class="card-text">Responsive Icon</p>
+                                <p class="card-text">Temp</p>
+                                <p class="card-text">Humidity</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Atlanta Weather</h5>
+                                <p class="card-text">11/12/2019</p>
+                                <p class="card-text">Responsive Icon</p>
+                                <p class="card-text">Temp</p>
+                                <p class="card-text">Humidity</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Atlanta Weather</h5>
+                                <p class="card-text">11/12/2019</p>
+                                <p class="card-text">Responsive Icon</p>
+                                <p class="card-text">Temp</p>
+                                <p class="card-text">Humidity</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Atlanta Weather</h5>
+                                <p class="card-text">11/12/2019</p>
+                                <p class="card-text">Responsive Icon</p>
+                                <p class="card-text">Temp</p>
+                                <p class="card-text">Humidity</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Atlanta Weather</h5>
+                                <p class="card-text">11/12/2019</p>
+                                <p class="card-text">Responsive Icon</p>
+                                <p class="card-text">Temp</p>
+                                <p class="card-text">Humidity</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
